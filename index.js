@@ -83,7 +83,7 @@ updatePrice();
 setInterval(updatePrice, 600000); // 10 minutes
 
 // Example route to retrieve the latest data
-app.get('/nft-price', (req, res) => {
+app.get('/nft-price-card', (req, res) => {
     const data = nftPrice.get("nft-price");
     console.log('NFT Price Data:', data); 
     res.json(data || {}); // Return empty object if no data

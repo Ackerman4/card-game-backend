@@ -1,0 +1,17 @@
+{
+  "name": "ess",
+  "version": "1.0.0",
+  "description": "Eagle Shadow Request Server",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Caesar",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "enmap": "^6.0.2",
+    "express": "^4.21.0"
+  }
+}

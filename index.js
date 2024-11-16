@@ -3,7 +3,7 @@ import express from 'express';
 import axios from 'axios'; // Use axios to fetch real-time conversion data
 
 const app = express();
-const port = 3443;
+const port = 3444;
 
 // Initialize Enmap
 const nftPrice = new Enmap({ name: 'nftPrice' });

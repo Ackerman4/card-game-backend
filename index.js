@@ -43,12 +43,9 @@ async function updatePrice() {
             ],
             thumbnail: {
                 url: "https://s.cafebazaar.ir/images/icons/com.coingecko.coingeckoapp-a60e464c-905b-4590-94d8-fb05f06021d2_512x512.png?x-img=v1/resize,h_256,w_256,lossless_false/optimize" // Add the thumbnail URL here
-            },
-            image: {
-                url: "https://i.imgur.com/ZXvXk1F.png"
-            },
+            }
             footer: {
-                text: "ESS Back-end Server"
+                text: "Card Rush Back-end Server"
             },
             timestamp: new Date().toISOString() // Current time
         };
